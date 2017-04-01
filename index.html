@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CSS Imports -->
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  </head>
+  <body>
+    <!-- Map -->
+    <div class="header"></div>
+    <!-- Button -->
+    <button id="toggle-sidebar">
+      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+    </button>
+    <div id="map" class="map"></div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1>Generating Routes</h1>
+      <h2 class="h3">From <span style="color:blue">here</span> to <span style="color:red">there</span></h2>
+      <label for="dest">Enter a destination</label>
+      <input id="dest" type="text">
+      <button id="calculate" disabled>Calculate Route</button>
+    </div>
+    <!-- Javascript Imports -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/decode.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
