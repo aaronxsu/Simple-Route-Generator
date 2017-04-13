@@ -7,5 +7,5 @@ Some main features of this simple web app:
 2. Generate the optimized route from current location to the destination. - [Mapzen optimized route](https://mapzen.com/documentation/mobility/optimized/api-reference/)
 3. A visualized line connecting all nodes on the route. - [Leaflet Polyline](http://leafletjs.com/reference-1.0.3.html#polyline)
 
-Use this simple app [here](https://aronxoxo.github.io/Simple-Route-Generator/).
+Use this simple app [here](https://aaronxsu.github.io/Simple-Route-Generator//).
 
